@@ -20,20 +20,21 @@ type Blog = {
 
 const Blogs: Blog[] = [
   {
-    title: "this is blog 1",
+    title: "Winter 2024: San Francisco",
     date: "10/18/2025",
-    description: "this is description 1",
-    image: "blog1image.jpg",
-    imageAlt: "happy man with thumbs up",
-    slug: "blog1",
+    description: "Last winter I went to San Francisco!",
+    image: "sanfran.jpg",
+    imageAlt:
+      "me in front of a lion dance wall mural in chinatown san francisco",
+    slug: "san-francisco-winter-2024",
   },
   {
-    title: "this is blog 2",
+    title: "Summer 2024: New York",
     date: "10/19/2025",
-    description: "this is description 2",
-    image: "blog2image.jpg",
-    imageAlt: "four happy jumping business people",
-    slug: "blog2",
+    description: "Last summer I went to New York!",
+    image: "newyork.jpg",
+    imageAlt: "me sitting on a rock in central park new york",
+    slug: "new-york-summer-2024",
   },
 ];
 

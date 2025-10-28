@@ -4,6 +4,8 @@
   --cg-blue: rgb(36, 94, 255);
   --cg-grey: rgb(243, 243, 243);
   --cg-white: rgb(255, 255, 255);
+  --cg-off-white: #e3dae8;
+  --cg-purple: #74599e;
 }
 
 html {
@@ -11,7 +13,7 @@ html {
 }
 
 body {
-  background: var(--cg-grey);
+  background: var(--cg-off-white);
   position: relative;
   min-height: 100vh;
   padding: 0;
@@ -34,8 +36,8 @@ body {
   align-items: center;
   text-align: center;
 
-  background-color: var(--cg-black);
-  color: var(--cg-white);
+  background-color: var(--cg-purple);
+  color: var(--cg-off-white);
   padding: 0px 0px;
 
   /* Debug border */
@@ -54,7 +56,7 @@ body {
 }
 
 .navbar a {
-  color: var(--cg-white);
+  color: var(--cg-off-white);
   font-weight: bold;
   margin: 0 12px;
   text-decoration: none;
@@ -127,7 +129,7 @@ main {
 
 .project-details {
   display: flex;
-  background-color: var(--cg-white);
+  background-color: var(--cg-off-white);
   width: 30%;
   height: 500px;
   flex-shrink: 1;
@@ -255,7 +257,7 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--cg-black);
+  background-color: var(--cg-purple);
   color: var(--cg-white);
   position: absolute;
   bottom: 0;
