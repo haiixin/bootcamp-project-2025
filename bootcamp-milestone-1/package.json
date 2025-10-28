@@ -1,0 +1,26 @@
+{
+  "name": "bootcamp-project-2025",
+  "version": "1.0.0",
+  "description": "This is the start of your 2025 bootcamp project!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hack4impact-calpoly/bootcamp-project-2025.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/hack4impact-calpoly/bootcamp-project-2025/issues"
+  },
+  "homepage": "https://github.com/hack4impact-calpoly/bootcamp-project-2025#readme",
+  "dependencies": {
+    "react-router-dom": "^7.9.4",
+    "typescript": "^5.9.3",
+    "typescritp": "^1.0.0"
+  }
+}
